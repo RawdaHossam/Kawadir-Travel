@@ -41,7 +41,7 @@ function revealOnScroll() {
   reveals.forEach((el) => {
     const windowHeight = window.innerHeight;
     const revealTop = el.getBoundingClientRect().top;
-    const revealPoint = 100; // trigger point
+    const revealPoint = 100; 
 
     if (revealTop < windowHeight - revealPoint) {
       el.classList.add("active");
